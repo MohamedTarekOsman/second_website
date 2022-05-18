@@ -1,0 +1,254 @@
+body{
+    perspective: 1800px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+}
+.logo{
+    width: 150px;
+    height: 35.88px;
+    margin: 50px 0  ;
+}
+.list-unstyled{
+    display: flex;
+    list-style: none;
+    margin-top: 55px;
+    position: relative;
+}
+.list-unstyle {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+}
+.link-item{
+    text-decoration: none;
+    margin: 20px;
+    font-family: sans-serif;
+    color: brown;
+    font-weight: bold;
+}
+.fa{
+    margin: 10px;
+}
+.headp{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    background-color: brown;
+    transition: .5s;
+}
+.s2:hover .line{
+    width: 150px;
+}
+.arrow{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    display: flex;
+    margin-left: auto;
+    visibility: hidden;
+    
+}
+.d1:hover .r1{
+    visibility: visible;
+}
+.d2:hover .r2 {
+    visibility: visible;
+}
+.d3:hover .r3 {
+    visibility: visible;
+}
+.d4:hover .r4 {
+    visibility: visible;
+}
+.fff{
+    transition: .5s;
+}
+.fff:hover{
+    transform: scale(1.1 , 1.1);
+}
+.ss{
+    color: grey;
+    width: 100%;
+    text-align: center;
+}
+.line2 {
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    background-color: brown;
+    transition: .5s;
+}
+.s5:hover .line2 {
+    width: 150px;
+}
+.active{
+    color: yellow;
+    margin: 10px 2px;
+}
+.non{
+content: "\f006";
+}
+.ico{
+    width: 40px;
+    height: 40px;
+    background-color: #7b5244;
+    margin-top: 50%;
+    margin-left: 5px;
+}
+.first-rotate{
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+.first-image:hover .first-rotate{
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    cursor: pointer;
+    opacity: .7;
+}
+.second-rotate {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+
+.second-image:hover .second-rotate {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    cursor: pointer;
+    opacity: .7;
+}
+.third-rotate {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+
+.third-image:hover .third-rotate {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    cursor: pointer;
+    opacity: .7;
+}
+.ho-icons{
+   position: absolute;
+   top: 450%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   clip: rect(0px,40px,40px,0px);
+   transition: .5s;
+}
+.d1-icon:hover .ho-icons{
+    position: absolute;
+    top: 355%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(40px, 180px, 180px, 0px);
+}
+.ho-icons2 {
+    position: absolute;
+    top: 260%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(180px, 250px, 250px, 0px);
+    transition: .5s;
+}
+.d2-icon:hover .ho-icons2 {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(250px, 335px, 335px, 0px);
+}
+.ho-icons3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(350px, 430px, 430px, 0px);
+    transition: .5s;
+}
+
+.d3-icon:hover .ho-icons3 {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(430px, 510px, 510px, 0px);
+}
+.ho-icons4 {
+    position: absolute;
+    top: -120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(510px, 600px, 600px, 0px);
+    transition: .5s;
+}
+
+.d4-icon:hover .ho-icons4 {
+    position: absolute;
+    top: -215%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(600px, 690px, 690px, 0px);
+}
+.ho-icons5 {
+    position: absolute;
+    top: -315%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(690px, 780px, 780px, 0px);
+    transition: .5s;
+}
+
+.d5-icon:hover .ho-icons5 {
+    position: absolute;
+    top: -410%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clip: rect(780px, 870px, 870px, 0px);
+}
+.list-uns{
+    margin: 10px 0 10px 30px;
+}
+.list-uns li a{
+    color: #7b5244;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+.list-uns li  {
+    margin: 10px 5px 0 5px;
+    list-style: none;
+}
+
+
+.drop-down-menu {
+    position: absolute;
+    border: 2px solid #7b5244;
+    background-color: white;
+    top: 45%;
+    left: 2.5%;
+    width: 65%;
+    display: flex;
+    padding-bottom: 10px;
+    opacity: 0;
+}
+
+.drop-down:hover .drop-down-menu{
+    opacity: 1;
+    transition: 1s;
+}
+.link-item:hover{
+    border :2px solid #7b5244 ;
+    padding: 10px;
+}
